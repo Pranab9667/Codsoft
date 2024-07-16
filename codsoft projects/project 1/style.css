@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: url("pi.webp") no-repeat center;
+    opacity: 1.4;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+h1,
+h2 {
+    margin: 0.5rem 0;
+}
+
+main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.intro p {
+    max-width: 600px;
+    margin: 1rem auto;
+    color: #34495e;
+}
+.qualities {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(220, 220, 220, 0.9));
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.qualities h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.qualities ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.qualities li {
+    background: rgba(236, 240, 241, 0.8);
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    color: #2c3e50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.qualities li:hover {
+    background: rgb(8, 9, 9);
+}
+
+
+.gallery {
+    text-align: center;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 312px;
+    height: 220px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
